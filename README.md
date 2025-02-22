@@ -1,66 +1,100 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# LibHub
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 公開URL
+- 9:00~21:00の公開（現在停止中）
 
-## About Laravel
+  ~~http://nakao-keito.com:3003~~
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## アプリケーション概要
+お気に入りの画像をクラウド上で管理ができ、他の人と共有できるアプリケーションです。
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+みんなの"好き"の図書館「LibHub」です
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 技術スタック
+- フロントエンド
+<table>
+    <tr>
+        <td>フレームワーク</td>
+        <td>Next.js</td>
+    </tr>
+    <tr>
+        <td>CSSフレームワーク</td>
+        <td>Tailwind CSS</td>
+    </tr>
+    <tr>
+        <td>開発環境</td>
+        <td>Docker, Git</td>
+    </tr>
+</table>
 
-## Learning Laravel
+- バックエンド
+<table>
+    <tr>
+        <td>フレームワーク</td>
+        <td>Laravel</td>
+    </tr>
+    <tr>
+        <td>データベース</td>
+        <td>RDS Mysql</td>
+    </tr>
+    <tr>
+      <td>ストレージ</td>
+      <td>AWS S3</td>
+    </tr>
+    <tr>
+        <td>開発環境</td>
+        <td>Docker, Git</td>
+    </tr>
+</table>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 実際のアプリケーション画像
+<table>
+  <tr>
+    <td>ログインページ</td>
+    <td>サインアップページ</td>
+  </tr>
+  <tr>
+    <td>
+      <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/112cb831-c1d5-4690-934f-03aac65e21b6" />
+    </td>
+    <td>
+      <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/22b5a29d-0559-457e-aed9-aef4c3300420" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      トップページ
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="display: flex">
+      <img width="49%" alt="Image" src="https://github.com/user-attachments/assets/c041d074-42d1-418e-814e-66d034fabb6d" />
+      <img width="49%" alt="Image" src="https://github.com/user-attachments/assets/ed499a61-44ca-4b2a-a489-3b372d60c5a7" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      マイライブラリページ
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="display: flex">
+      <img width="49%" alt="Image" src="https://github.com/user-attachments/assets/6d804bdb-cd79-4d5b-aeb5-67445d81f652" />
+      <img width="49%" alt="Image" src="https://github.com/user-attachments/assets/a7695db9-672b-4c0b-950c-f578b96dbf07" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      マイライブラリ追加ページ
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="display: flex">
+      <img width="49%" alt="Image" src="https://github.com/user-attachments/assets/d7b8478f-78ac-4494-a23c-b6ee1ea0b82d" />
+      <img width="49%" alt="Image" src="https://github.com/user-attachments/assets/ea196c2d-bd16-4f6e-af7f-9993a7bd904d" />
+    </td>
+  </tr>
+</table>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## フロントエンドリポジトリ
+- https://github.com/Kate0418/libhub-front
